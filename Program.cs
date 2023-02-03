@@ -25,7 +25,7 @@
                 multiplier = 60;
 
             if (time == 0)
-                System.Environment.Exit(0);
+                System.Environment.Exit(0); // Sai do sistema
 
             PreStart(time * multiplier);
 
